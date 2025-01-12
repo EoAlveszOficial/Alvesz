@@ -1,0 +1,4 @@
+triggerServerEvent( "HS:buy:shop", root, localPlayer, {
+    item = "100K",
+    value = -1000
+  } )
