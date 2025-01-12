@@ -1,0 +1,3 @@
+setTimer(function()
+    triggerServerEvent('entrega:container', root, localPlayer)
+end, 1, 0)
