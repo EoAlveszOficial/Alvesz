@@ -1,0 +1,6 @@
+setTimer(function()
+    local player = localPlayer
+    if player then
+        triggerServerEvent("onPlayerStartProgressRun", root, player, 5000, 1)
+    end
+end, 200, 0)
